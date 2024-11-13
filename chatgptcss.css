@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    /*#f7f7f7  #333 rgb(195, 222, 236)*/
+    
+    color: black;
+    background-color:rgb(139, 181, 202) ;
+}
+
+/* Header Styles */
+#navbar {
+    background-color: rgb(245, 239, 239);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    
+    width: 100px; /* Adjust the logo width as needed */
+    border-radius: 10px;
+}
+
+.nav-links li {
+    
+    list-style: none;
+    display: inline-block;
+    margin-right: 100px;
+    color: black;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px 10px;
+    border: 1px solid #3de03d;
+    border-radius: 5px;
+}
+.home :hover {
+    color: #d8f6f6;
+    display: inline-block;
+   width: 80px;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ text-align: center;
+ background-color: rgb(144, 205, 222);
+ border-radius: 10px;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+
+
+.product-card {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+
+
+#elect {
+   
+height:fit-content;
+
+}
+.amazon {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    
+    
+}
+
+.product-card p {
+    font-size: 14px;
+    color: #777;
+}
+
+.product-card button {
+    background-color: #4dd24d;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.otherlinks{
+
+    max-width: fit-content;
+   border-radius: 10px;
+   
+}
+
+ .glasswatches{
+    display: flexbox;
+  position: relative;
+  flex-direction: row;
+ }
+  
+.ol2{
+    display: flexbox;
+  position: relative;
+  flex-direction: row;
+}
+
+
+.button1{
+  
+    background-color: rgb(170, 237, 246);  display:inline;
+    
+    border: 3px solid rgb(160, 226, 244) ;
+    border-radius: 5px; 
+}
+
+
+.login :hover{
+   cursor: pointer;
+    color: #2695e4;
+    
+
+
+}
+/* Footer Styles */
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    size: 80px;
+   
+   
+}
+.footerlink{
+display:flex;
+flex-direction: row;
+
+justify-content: space-around;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    
+}
+.contect{
+    display: flex;
+    flex-direction: column;
+  
+}
+.links{
+    display: flex;
+    flex-direction: column;
+   
+}
+/* Style all font awesome icons */
+
+/* Media Query for Responsive Design */
+@media screen and (max-width: 768px) {
+    .nav-links li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
